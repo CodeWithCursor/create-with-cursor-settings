@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Laravel",
+        "repoUrl": "https://github.com/laravel/laravel.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/Eetwalt/Restaurant-rater/7f4a455734d8397da4288932b80d4cf503c85cff/.cursorrules",
+        "postInstallCommands": ["composer install", "cp .env.example .env", "php artisan key:generate", "php artisan migrate"]
+    },
+    {
+        "name": "React Native",
+        "repoUrl": "https://github.com/react-native-community/react-native-template-typescript.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/example/react-native-cursor-rules/main/.cursorrules",
+        "postInstallCommands": ["npm install"]
+    },
+    {
+        "name": "React",
+        "repoUrl": "https://github.com/facebook/create-react-app.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/example/react-cursor-rules/main/.cursorrules",
+        "postInstallCommands": ["npm install"]
+    },
+    {
+        "name": "Vue",
+        "repoUrl": "https://github.com/vuejs/vue-cli.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/example/vue-cursor-rules/main/.cursorrules",
+        "postInstallCommands": ["npm install"]
+    }
+]
