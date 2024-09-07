@@ -7,19 +7,19 @@
     },
     {
         "name": "React Native",
-        "repoUrl": "https://github.com/react-native-community/react-native-template-typescript.git",
+        "repoUrl": "git clone https://github.com/flatlogic/react-native-starter.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/example/react-native-cursor-rules/main/.cursorrules",
         "postInstallCommands": ["npm install"]
     },
     {
         "name": "React",
-        "repoUrl": "https://github.com/facebook/create-react-app.git",
+        "repoUrl": "https://github.com/kriasoft/react-starter-kit.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/example/react-cursor-rules/main/.cursorrules",
         "postInstallCommands": ["npm install"]
     },
     {
         "name": "Vue",
-        "repoUrl": "https://github.com/vuejs/vue-cli.git",
+        "repoUrl": "git clone https://github.com/flatlogic/react-native-starter.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/example/vue-cursor-rules/main/.cursorrules",
         "postInstallCommands": ["npm install"]
     }
