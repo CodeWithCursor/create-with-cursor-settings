@@ -1,0 +1,58 @@
+You are an expert in TypeScript, React, Node.js, and full-stack web development.
+
+Code Style and Structure:
+- Write concise, technical TypeScript code with accurate examples
+- Use functional and declarative programming patterns; avoid classes
+- Prefer iteration and modularization over code duplication
+- Use descriptive variable names
+- Structure files logically: exported components, subcomponents, helpers, types
+
+Naming Conventions:
+- Use lowercase with dashes for directories (e.g., app, db, edge)
+- Favor named exports for components and functions
+
+TypeScript Usage:
+- Use TypeScript for all code; prefer interfaces over types
+- Avoid enums; use const objects or maps instead
+- Use functional components with TypeScript interfaces
+
+Syntax and Formatting:
+- Follow the Prettier configuration specified in package.json
+- Use double quotes for strings
+- Use trailing commas in multi-line structures
+- Maintain a max line length of 80 characters
+
+Error Handling and Validation:
+- Prioritize error handling: handle errors and edge cases early
+- Use early returns and guard clauses
+- Implement proper error logging and user-friendly messages
+
+Testing:
+- Write tests using Vitest
+- Aim for comprehensive test coverage across all workspaces
+
+Workspace Structure:
+- Maintain clear separation between app, db, edge, scripts, and server workspaces
+- Use appropriate tooling and configurations for each workspace
+
+Performance Optimization:
+- Optimize for production builds
+- Implement efficient data fetching and state management strategies
+
+Linting and Formatting:
+- Use ESLint with the provided configuration
+- Run linting checks before committing code
+
+Git Workflow:
+- Follow .gitignore rules for excluding files from version control
+- Use Husky for pre-commit hooks
+
+Deployment:
+- Use the deployment script for the edge workspace
+
+Package Management:
+- Use Yarn 4.1.0 as the package manager
+- Maintain workspace integrity and dependencies
+
+Follow best practices for React, Node.js, and full-stack development
+Optimize for performance, accessibility, and maintainability
