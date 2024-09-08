@@ -1,26 +1,32 @@
 [
     {
         "name": "Laravel",
-        "repoUrl": "https://github.com/laravel/laravel.git",
-        "cursorRulesUrl": "https://raw.githubusercontent.com/Eetwalt/Restaurant-rater/7f4a455734d8397da4288932b80d4cf503c85cff/.cursorrules",
+        "repoUrl": "https://github.com/CodeWithCursor/laravel.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/laravel-cursorrules",
         "postInstallCommands": ["composer install", "cp .env.example .env", "php artisan key:generate", "php artisan migrate"]
     },
     {
+        "name": "Flutter",
+        "repoUrl": "https://github.com/GeekyAnts/flutter-starter.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/flutter-cursorrules",
+        "postInstallCommands": []
+    },
+    {
         "name": "React Native",
-        "repoUrl": "git clone https://github.com/flatlogic/react-native-starter.git",
-        "cursorRulesUrl": "https://raw.githubusercontent.com/example/react-native-cursor-rules/main/.cursorrules",
-        "postInstallCommands": ["npm install"]
+        "repoUrl": "https://github.com/flatlogic/react-native-starter.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/react-native-cursorrules",
+        "postInstallCommands": []
     },
     {
         "name": "React",
         "repoUrl": "https://github.com/kriasoft/react-starter-kit.git",
-        "cursorRulesUrl": "https://raw.githubusercontent.com/example/react-cursor-rules/main/.cursorrules",
-        "postInstallCommands": ["npm install"]
+        "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/react-cursorrules",
+        "postInstallCommands": []
     },
     {
         "name": "Vue",
-        "repoUrl": "git clone https://github.com/flatlogic/react-native-starter.git",
-        "cursorRulesUrl": "https://raw.githubusercontent.com/example/vue-cursor-rules/main/.cursorrules",
-        "postInstallCommands": ["npm install"]
+        "repoUrl": "https://github.com/andrefelipe18/VFull.git",
+        "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/vue-cursorrules",
+        "postInstallCommands": []
     }
 ]
