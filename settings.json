@@ -3,7 +3,7 @@
         "name": "Laravel",
         "repoUrl": "https://github.com/CodeWithCursor/laravel.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/laravel-cursorrules",
-        "postInstallCommands": ["composer install", "cp .env.example .env", "php artisan key:generate", "php artisan migrate", "nvm use", "npm install", "npm run build"]
+        "postInstallCommands": ["composer install", "cp .env.example .env", "php artisan key:generate", "php artisan migrate"]
     },
     {
         "name": "Flutter",
