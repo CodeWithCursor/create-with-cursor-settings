@@ -21,7 +21,7 @@
         "name": "React (Alpha)",
         "repoUrl": "https://github.com/kriasoft/react-starter-kit.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/react-cursorrules",
-        "postInstallCommands": []
+        "postInstallCommands": ["corepack enable", "yarn install", "yarn workspace app start"]
     },
     {
         "name": "Vue (Alpha)",
