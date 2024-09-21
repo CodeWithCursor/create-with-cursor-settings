@@ -6,12 +6,6 @@
         "postInstallCommands": ["composer install", "cp .env.example .env", "php artisan key:generate", "php artisan migrate --force", "nvm install", "nvm use", "npm install", "npm run build"]
     },
     {
-        "name": "Flutter (Alpha)",
-        "repoUrl": "https://github.com/GeekyAnts/flutter-starter.git",
-        "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/flutter-cursorrules",
-        "postInstallCommands": []
-    },
-    {
         "name": "React Native (Alpha)",
         "repoUrl": "https://github.com/flatlogic/react-native-starter.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/react-native-cursorrules",
@@ -27,6 +21,6 @@
         "name": "Vue (Alpha)",
         "repoUrl": "https://github.com/andrefelipe18/VFull.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/vue-cursorrules",
-        "postInstallCommands": []
+        "postInstallCommands": ["npm install"]
     }
 ]
