@@ -15,7 +15,7 @@
         "name": "React Native (Alpha)",
         "repoUrl": "https://github.com/flatlogic/react-native-starter.git",
         "cursorRulesUrl": "https://raw.githubusercontent.com/CodeWithCursor/create-with-cursor-settings/main/react-native-cursorrules",
-        "postInstallCommands": []
+        "postInstallCommands": ["yarn install"]
     },
     {
         "name": "React (Alpha)",
